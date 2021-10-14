@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: local("Comfortaa"),
+      url("../../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+    font-weight: normal;
+  }
+.marcas_global {
+  padding-bottom: 8em;
+    margin-top: -1em;
+    background-image: url("../../assets/FondoNegroTextura.png");
+    background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .marcas_container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+        align-items: center;
+  }
+  .marcas_title{
+    font-family: "Comfortaa";
+font-size: 4em;
+padding-top:3em;
+color:white;
+  }
+  .marcas_logos{
+      display: flex;
+      flex-wrap: wrap;
+        justify-content: center;
+        width: 80vw;
+  }
+  .marcas_logos>img{
+      width: 20vw;
+  }
+
+  @media (max-width: 800px) {
+    .marcas_logos>img{
+        width: 30vw;
+    }
+ .marcas_title{
+    font-size: 1em;
+    padding-bottom: 2em;
+    }
+    .marcas_logos{
+        justify-content: space-around;
+
+          width: 85vw;
+    }
+
+  }

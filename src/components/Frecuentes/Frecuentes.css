@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("../../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.frecuentes_container {
+  padding-bottom: 20em;
+  width: 100vw;
+  background: #e67611;
+  margin-top: -5em;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frecuentes_title {
+  font-family: "Comfortaa";
+  color: white;
+  font-size: 5em;
+  padding-top: 1em;
+}
+.pregunta_item{
+    font-family: "Comfortaa";
+    overflow: hidden;
+    background: #F7CC7F;
+    font-size: 6em;
+  }
+.acordeon_container
+{
+  font-size: 3em;
+}
+.Collapsible{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  cursor: pointer;
+  font-size: 1.4em;
+  background: #F7CC7F;
+  font-family: "Comfortaa";
+}
+.Collapsible__trigger{
+  font-size: 4em;
+  font-family: "Comfortaa";
+  justify-content: space-between;
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 1.2em;
+}
+@media (max-width: 800px) {
+    .frecuentes_title {
+    font-size:1.2em
+    }
+    .pregunta_item{
+        font-weight: bold;
+        width: 85vw;
+        padding: 0.7em;
+        font-size: 0.8em;
+    }
+    .frecuentes_container {
+      padding-bottom: 10em;
+    }
+    .Collapsible{
+      font-size: 0.7em;
+      width: 80vw;
+
+    }
+
+}

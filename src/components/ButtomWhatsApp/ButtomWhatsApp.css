@@ -1,0 +1,35 @@
+.btn-whatsapp {
+    display:block;
+    width:75px;
+    height:75px;
+    color: #fff;
+    position: fixed;
+    right:50px;
+    bottom:50px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    cursor:pointer;
+}
+.btn-whatsapp_container{
+    border-radius:100%;
+    width:120%;
+    height:120%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10B118;
+}
+
+@media (max-width: 800px) {
+    .btn-whatsapp {
+        width:43px;
+        height:43px;
+        right:20px;
+        bottom:30px;
+        
+    }
+
+
+}
